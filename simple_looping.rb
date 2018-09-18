@@ -58,4 +58,4 @@ def for_iterator(number_of_times)
   for integer in range
   puts phrase
 end
-
+end
