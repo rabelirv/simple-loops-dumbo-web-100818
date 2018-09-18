@@ -21,14 +21,8 @@ end
 def times_iterator(number_of_times)
     
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  if number_of_times== 4
-    4.times do
-      puts phrase
-    end
-      elsif number_of_times ==10 
-      10.times do
+  number_of_times.times do
         puts phrase
-    end 
   end
 end
 
